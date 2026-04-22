@@ -1,0 +1,121 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    box-sizing: border-box;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background-color: #0d1117;
+    color: #e6edf3;
+    font-family: 'Inter', system-ui, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  ::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: #161b22;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: #30363d;
+    border-radius: 3px;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: #484f58;
+  }
+}
+
+@layer components {
+  .page-container {
+    @apply max-w-7xl mx-auto px-6 py-10;
+  }
+
+  .section-label {
+    @apply text-xs font-mono uppercase tracking-widest text-text-secondary mb-2;
+  }
+
+  .section-title {
+    @apply text-3xl font-bold text-text-primary mb-2;
+  }
+
+  .section-subtitle {
+    @apply text-text-secondary text-base leading-relaxed;
+  }
+
+  .card {
+    @apply bg-dark-card border border-dark-border rounded-xl p-6;
+  }
+
+  .cs-accent {
+    @apply text-cs-red;
+  }
+
+  .s1-accent {
+    @apply text-s1-purple;
+  }
+
+  .badge-cs {
+    @apply inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-cs-red/15 text-cs-red border border-cs-red/30;
+  }
+
+  .badge-s1 {
+    @apply inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-s1-purple/15 text-s1-purple border border-s1-purple/30;
+  }
+
+  .verdict-winner {
+    @apply text-accent-green font-semibold;
+  }
+
+  .verdict-tie {
+    @apply text-accent-yellow font-semibold;
+  }
+
+  .nav-link {
+    @apply flex items-center gap-3 px-3 py-2.5 rounded-lg text-sm font-medium transition-all duration-150;
+  }
+
+  .nav-link-active {
+    @apply bg-accent-blue/10 text-accent-blue border border-accent-blue/20;
+  }
+
+  .nav-link-inactive {
+    @apply text-text-secondary hover:text-text-primary hover:bg-dark-border/50;
+  }
+
+  .divider {
+    @apply border-t border-dark-border my-6;
+  }
+
+  .metric-card {
+    @apply bg-dark-surface border border-dark-border rounded-lg p-4 text-center;
+  }
+}
+
+.recharts-tooltip-wrapper .recharts-default-tooltip {
+  background-color: #1c2230 !important;
+  border: 1px solid #30363d !important;
+  border-radius: 8px !important;
+}
+
+.recharts-tooltip-wrapper .recharts-tooltip-label {
+  color: #e6edf3 !important;
+  font-weight: 600 !important;
+}
+
+.recharts-cartesian-grid-horizontal line,
+.recharts-cartesian-grid-vertical line {
+  stroke: #30363d !important;
+}

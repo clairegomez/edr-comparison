@@ -3,7 +3,7 @@ export default function ExecutiveSummary() {
     <div className="page-container animate-fade-in">
       {/* Page Header */}
       <div className="mb-10">
-        <p className="section-label">Market Intelligence Report · April 2024</p>
+        <p className="section-label">Market Intelligence Report · April 2026</p>
         <h1 className="text-4xl font-extrabold text-text-primary mb-3 leading-tight">
           EDR Platform Analysis:<br />
           <span className="text-cs-red">CrowdStrike Falcon</span>{' '}

@@ -2,8 +2,7 @@
 
 A professional multi-page React application presenting an independent technical analysis of the two leading Endpoint Detection & Response (EDR) platforms.
 
-**Author:** Claire Gomez — CIS Student, James Madison University (pursuing a career in cybersecurity sales engineering)
-
+**Author:** Claire Gomez
 ---
 
 ## Overview

@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>EDR Market Intelligence Report</title>
+    <script>
+      // Redirect GitHub Pages 404s back into the SPA
+      var path = window.location.pathname.replace('/edr-comparison', '');
+      var search = window.location.search;
+      var hash = window.location.hash;
+      window.location.replace(
+        '/edr-comparison/?p=' + encodeURIComponent(path + search) + hash
+      );
+    </script>
+  </head>
+</html>

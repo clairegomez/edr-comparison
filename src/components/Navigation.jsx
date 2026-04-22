@@ -86,7 +86,7 @@ export default function Navigation() {
         <h1 className="text-sm font-bold text-text-primary leading-tight">
           CrowdStrike vs SentinelOne
         </h1>
-        <p className="text-xs text-text-muted mt-0.5">Market Analysis Report · 2024</p>
+        <p className="text-xs text-text-muted mt-0.5">Market Analysis Report · 2026</p>
       </div>
 
       {/* Navigation Links */}

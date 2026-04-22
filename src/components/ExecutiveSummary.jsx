@@ -165,20 +165,18 @@ export default function ExecutiveSummary() {
               <span className="badge-cs">Author</span>
             </div>
             <p className="text-sm text-accent-blue font-medium mb-2">
-              CIS Student · James Madison University · Pursuing Cybersecurity Sales Engineering
+              James Madison University
             </p>
             <p className="text-sm text-text-secondary leading-relaxed max-w-2xl">
               Claire is a Computer Information Systems student at JMU with a focus on cybersecurity
               and enterprise security sales. This report was produced as an independent research
               project to develop analyst-grade knowledge of the EDR market, applying technical
               evaluation frameworks used by security practitioners and procurement teams.
-              Claire's goal is to bridge the gap between technical capability and business value
-              in cybersecurity product decisions.
             </p>
             <div className="flex items-center gap-4 mt-3">
               <span className="text-xs text-text-muted font-mono">JMU · Harrisonburg, VA</span>
               <span className="w-1 h-1 rounded-full bg-dark-border" />
-              <span className="text-xs text-text-muted font-mono">Expected Graduation: 2026</span>
+              <span className="text-xs text-text-muted font-mono">Expected Graduation: 2028</span>
               <span className="w-1 h-1 rounded-full bg-dark-border" />
               <span className="text-xs text-text-muted font-mono">Specialization: SE Track</span>
             </div>
